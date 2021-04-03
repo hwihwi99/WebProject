@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!--이 부분은 주석 부분 입니다.-->
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8">
+        <title>
+           HwiJeong's HomePage
+        </title>
+    </head>
+    <body>
+       <h1>HwiJeong</h1>
+       <hr>
+       <img src="휘정.jpg" width="200" height="300" alt="사진 업로드 실패">
+       <div style="background-color: lightsalmon; padding: 20px; width: 200px; height: 20px; text-align: center;">
+            저는 <span style="color: magenta;">휘정</span>이예요
+        </div>
+
+        <p>
+            ~반가워요~
+            메타 데이터는 데이터를 설명하는 데이터 입니다.
+        </p>
+
+        <ul>
+            <li><a href="#1">1번</a></li>
+            <li><a href="#2">2번</a></li>
+            <li><a href="#3">3번</a></li>
+        </ul>
+
+        
+        <ol type="i">
+            <li> 물을 끓인다. </li>
+            <li> 라면과 스프를 넣는다. </li>
+            <li> 파를 썰어 넣는다. </li>
+            <li> 5분 후 먹는다. </li>
+        </ol>
+
+        <ul style="list-style: none;"> <!--리스트 앞 점 지우기-->
+            <li>휘정's 소개</li>
+            <li>2021's goal</li>
+        </ul>
+
+        <ul>
+            <li>내가 좋아하는 음식</li>
+            <ul>
+                <li>마라탕</li>
+                <li>짬뽕</li>
+                <li>교촌 허니 콤보 + 엽떡</li>
+            </ul>
+            <li>내가 좋아하는 활동</li>
+            <ul>
+                <li>산책하기</li>
+                <li>돈 관리하기</li>
+                <li>음악들으면서 코딩하기</li>
+            </ul>
+            <li>잘하고 싶은 것 순위</li>
+            <ol>
+                <li>코딩 - 자료구조, 알고리즘 특히..</li>
+                <li>영어 - 유창하게 말하고 싶다..</li>
+                <li>운동 - 체력이 좋아지고 싶다..</li>
+            </ol>
+        </ul>
+
+        <a id="1">1장</a>
+        <p>html에 대해서</p>
+
+        <table border="1">
+            <caption>1학기 성적</caption>
+            <thead>
+                <tr>
+                    <th>이름</th>
+                    <th>html</th>
+                    <th>css</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>황기태</td><td>80</td><td>70</td></tr>
+                <tr><td>이재문</td><td>95</td><td>99</td></tr>
+                <tr><td>이변은</td><td>40</td><td>61</td></tr>
+            </tbody>
+            <tfoot>
+                <tr><th>합</th><th>225</th><th>230</th></tr>
+            </tfoot>
+        </table>
+
+        <table border="1">
+            <caption>좋아하는 과일</caption>
+            <tbody>
+                <tr>
+                    <td><img src="apple.jpg" alt="사과"></td>
+                    <td><img src="banana.jpg" alt="바나나"></td>
+                    <td><img src="grape.jpg" alt="포도"></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <a id="2">2장</a>
+        <p>css에 대해서</p>
+        
+        <a href="http://www.naver.com" target="_blank"> <!--새탭에 띄우기-->
+            <img src="휘정.jpg" width="200" height="300" alt="사진 업로드 실패">
+        </a>
+        <br>
+
+        <a id="3">3장</a>
+        <p>js에 대해서</p>
+
+        <iframe src="iframe1.html" frameborder="1" width="200" height ="150">오류</iframe>
+        <iframe src="iframe2.html" frameborder="1" width="200" height ="150">오류</iframe>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gXZUauFMmMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+    
+        <h2>로그인 폼</h2>
+        <hr>
+        사용자 아이디 : <input type="text" size="15" value="">
+        <br>
+        비밀번호 : <input type="password" size="15" value="">
+        <input type="submit" value="완료">
+
+        <form name ="fo1" action="https://search.naver.com/search.naver" method="GET">
+            <input type="query" type="text">
+            <input type="submit" value="검색">
+        </form>
+
+        <form>
+            이름 : <input type="text" value=""> <br>
+            암호 : <input type="password" value=""> <br>
+            자소서 : <textarea cols="20" rows="5">이곳에 자기소개서 작성
+            </textarea>
+        </form>
+
+        나라: <input type="text" list="countries">
+        <datalist id="countries">
+            <option value="가나"></option>
+            <option value="스위스"></option>
+            <option value="브라질"></option>
+        </datalist>
+        <br>
+        짜장면 <input type="checkbox" value="1">
+        짬뽕 <input type="checkbox" value="1">
+        탕수육 <input type="checkbox" value="1">
+        <br>
+        성별
+        여자 <input type="radio" name="gender"> 
+        남자 <input type="radio" name="gender">
+        <br>
+        <select name="china">
+            <option value="1">짜장면</option>
+            <option value="2" selected>짬뽕</option>
+            <option value="3">탕수육</option>
+        </select>
+        <br>
+        <label style="background-color: mediumpurple;">
+        사용자 아이디 : <input type="text" value=" ">
+        </label> <br>
+
+    </body>
+
+</html>
