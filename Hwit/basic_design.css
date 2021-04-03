@@ -1,0 +1,105 @@
+html,body{
+    margin : 0;
+    padding: 0;
+    height : 100%;
+}
+.logo{
+    width: 15%;
+    height: 20%;
+    float: left;                
+}
+.music{
+    width:85%;
+    height:10%;
+    float: right;
+    background-color:  #939597;
+}
+.menu{
+    width:85%;
+    height:10%;
+    float: right;
+    
+    background-color:#F5dF4D;
+}
+
+#main-menu, #sub-menu{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#main-menu > li{
+    float: left;                
+    font-family: "Last Ninja", Impact, fantasy;
+    font-style:inherit;
+    font-size: 30px;
+}
+
+#main-menu > li > a{
+    display: block;
+    padding : 8px 20px;                
+    text-decoration: none;
+    text-align: center;
+    color:  #939597;
+}
+
+#sub-menu{
+    position: relative;
+    background-color: #F5dF4D;
+    opacity: 0; /*Åõ¸íµµ 0*/
+    visibility: hidden;
+}
+
+#main-menu > li:hover #sub-menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+#sub-menu>li{
+    padding: 16px 28px;
+}
+
+#sub-menu > li > a{
+    text-decoration: none;
+    text-align: center;
+    color: #939597;
+}
+
+#aboutme >a:hover{
+    color: lightgray;
+}
+#myfavorite >a:hover{
+    color: lightgray;
+}
+#project_js >a:hover{
+    color: lightgray;
+}
+#hw1 >a:hover{
+    color: lightgray;
+}
+#hw2 >a:hover{
+    color: lightgray;
+}
+#hw3 >a:hover{
+    color: lightgray;
+}
+.profile{
+    height: 80%;
+    width: 15%;
+    float: left;
+    text-align: center;
+    background-color: #939597
+}
+.main{
+    height: 80%;
+    width: 70%;
+    float: left;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.detail{
+    height: 80%;
+    width: 15%;
+    float: right;
+    background-color:  #939597
+}
